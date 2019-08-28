@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: user-service
+rabbitmq:
+    host: 192.168.198.134
+    port: 5672
+    username: admin
+    password: admin
     
 # 在末尾添加了一个新的用户数据
 sp:
